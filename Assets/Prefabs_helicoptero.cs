@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prefabs_cientista : MonoBehaviour
+public class Prefabs_helicoptero : MonoBehaviour
 {
     public float velocidade;
     public bool direcao;
     public Rigidbody rb;
     private Animator animator;
     public GameObject Player;
-    public GameObject cientista;
+    public GameObject helicoptero;
 
     // Use this for initialization
     void Start()
@@ -17,7 +17,7 @@ public class Prefabs_cientista : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = gameObject.transform.GetComponent<Animator>();
         Player = GameObject.Find("Player");
-        cientista = GameObject.Find("cientista");
+        helicoptero = GameObject.Find("helicoptero");
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class Prefabs_cientista : MonoBehaviour
     }*/
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player_vermelho")
+        if (collision.tag == "Player_azul")
         {
             Destroy(gameObject);
         }
@@ -51,6 +51,10 @@ public class Prefabs_cientista : MonoBehaviour
             Destroy(collision.gameObject);
         }
         else if (collision.tag == "Player_azul")
+        {
+            Destroy(collision.gameObject);
+        }
+        else if (collision.tag == "Player_roxo")
         {
             Destroy(collision.gameObject);
         }
