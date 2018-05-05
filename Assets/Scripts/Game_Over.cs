@@ -8,8 +8,9 @@ public class Game_Over : MonoBehaviour {
     public GameObject player;
     public GameObject tela_game_over;
     public GameObject tela_game;
-    public GameObject camera;
     public TextMeshProUGUI p_final;
+    public TextMeshProUGUI p;
+
     public int ponto_i;
     public int ponto_externo;
     int index = 0;
@@ -46,11 +47,11 @@ public class Game_Over : MonoBehaviour {
 
     public void instancia_game_over()
     {
-        camera.GetComponent<AudioSource>().Pause();
+        GetComponent<Camera>().GetComponent<AudioSource>().Pause();
         Time.timeScale = 0;
         tela_game_over.SetActive(true);
         tela_game.SetActive(false);
-        p_final.text = ponto_i.ToString();
+        p_final.text = p.text
          
 
     }
