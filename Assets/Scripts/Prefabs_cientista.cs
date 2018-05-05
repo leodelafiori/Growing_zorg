@@ -41,16 +41,15 @@ public class Prefabs_cientista : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        else if (collision.tag == "Player_vermelho")
-        {
-            Destroy(collision.gameObject);
-        }
         else if (collision.tag == "Player_verde")
         {
             Destroy(collision.gameObject);
         }
         else if (collision.tag == "Player_azul")
+        {
+            Destroy(collision.gameObject);
+        }
+        else if (collision.tag == "Player_roxo")
         {
             Destroy(collision.gameObject);
         }
