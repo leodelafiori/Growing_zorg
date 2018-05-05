@@ -51,7 +51,7 @@ public class Game_Over : MonoBehaviour {
         Time.timeScale = 0;
         tela_game_over.SetActive(true);
         tela_game.SetActive(false);
-        p_final.text = p.text
+        p_final.text = p.text;
          
 
     }
