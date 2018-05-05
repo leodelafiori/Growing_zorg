@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Player_vermelho
   - Pocao
+  - Player_azul
+  - Player_verde
+  - Player_roxo
   layers:
   - Default
   - TransparentFX
