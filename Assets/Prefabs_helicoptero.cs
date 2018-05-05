@@ -39,7 +39,7 @@ public class Prefabs_helicoptero : MonoBehaviour
     {
         if (collision.tag == "Player_azul")
         {
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
 
         else if (collision.tag == "Player_vermelho")
