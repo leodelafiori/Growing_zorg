@@ -65,5 +65,7 @@ public class prefabs_carrinho : MonoBehaviour {
     {
         yield return new WaitForSeconds(6);
         Destroy(gameObject);
+
     }
+
 }

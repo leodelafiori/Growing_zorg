@@ -8,6 +8,7 @@ public class Troca_sprite : MonoBehaviour {
     public Sprite[] verde;
     public Sprite[] vermelho;
     public Sprite[] azul;
+    public Sprite[] roxo;
     int contador = 0;
     public bool cr_azul, cr_vermelho, cr_verde, cr_roxo;
 
@@ -36,7 +37,32 @@ public class Troca_sprite : MonoBehaviour {
 
     public void troca_roxo()
     {
-        sprite.sprite = verde[0];
+        StartCoroutine("trocaroxo");
+    }
+
+    IEnumerator trocaroxo()
+    {
+
+        cr_roxo = true;
+        contador = 0;
+
+        while (contador < 17)
+        {
+            yield return new WaitForSeconds(0.1f);
+            sprite.sprite = roxo[contador];
+            contador++;
+            if (contador == 17)
+            {
+                contador = 0;
+            }
+            if (cr_vermelho || cr_verde || cr_azul)
+            {
+                cr_roxo = false;
+                break;
+            }
+
+        }
+
     }
 
     IEnumerator trocaverde()
