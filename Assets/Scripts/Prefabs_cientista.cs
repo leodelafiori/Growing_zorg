@@ -37,13 +37,15 @@ public class Prefabs_cientista : MonoBehaviour
     }*/
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player_azul")
-        {
-            Destroy(collision.gameObject);
-        }
-        else if (collision.tag == "Player_vermelho")
+        if (collision.tag == "Player_vermelho")
         {
             Destroy(gameObject);
         }
+        
+        else 
+        {
+            Destroy(collision.gameObject);
+        }
+
     }
 }
