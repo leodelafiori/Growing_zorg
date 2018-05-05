@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 316202095}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Player_azul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 1806418006276818, guid: 817a403e0dfb0c54fb678ff09bad357e, type: 2}
+  - {fileID: 1371043808821650, guid: 817a403e0dfb0c54fb678ff09bad357e, type: 2}
   contador: 0
   go: {fileID: 0}
 --- !u!1 &1400777709
@@ -543,7 +543,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tag: {fileID: 670547639}
   player: {fileID: 316202091}
-  posicao_original: {x: 0, y: 0, z: 0}
 --- !u!212 &1459399164
 SpriteRenderer:
   m_ObjectHideFlags: 0
