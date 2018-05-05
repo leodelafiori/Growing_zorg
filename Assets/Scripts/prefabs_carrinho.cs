@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prefabs_carrinho : MonoBehaviour
-{
+public class prefabs_carrinho : MonoBehaviour {
     public float velocidade;
     public bool direcao;
     public Rigidbody rb;
@@ -28,7 +27,7 @@ public class Prefabs_carrinho : MonoBehaviour
         transform.Translate(-velocidade * Time.deltaTime, 0, 0);
     }
 
-    /*s
+    /*
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")

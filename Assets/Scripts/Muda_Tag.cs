@@ -32,7 +32,7 @@ public class Muda_Tag : MonoBehaviour {
     public void Tagverde()
     {
         player.transform.position = new Vector3(-4, -0.6f, 0);
-        player.transform.localScale = new Vector3(3F, 3f, 0);
+        player.transform.localScale = new Vector3(5F, 5f, 0);
         player.tag = "Player_verde";
         troca.troca_verde();
     }
@@ -42,7 +42,7 @@ public class Muda_Tag : MonoBehaviour {
         player.transform.position = new Vector3(-4, 0f, 0);
         player.transform.localScale = new Vector3(2.5F, 2.5f, 0);
         player.tag = "Player_roxo";
-        troca.troca_verde();
+        troca.troca_roxo();
     }
 
 }
