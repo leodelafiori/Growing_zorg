@@ -17,9 +17,6 @@ public class Spawna_inimigos : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
-        
-        int inimigo_aleatorio = Random.Range(0, 1);
-
         StartCoroutine("Spawnar");
 
 
@@ -33,21 +30,38 @@ public class Spawna_inimigos : MonoBehaviour {
 
     public void Spawna()
     {
+        int inimigo_aleatorio = Random.Range(0, 2);
 
-        go = Instantiate(prefabs[RandomPrefab()]) as GameObject;
-        // Setando o spawna_tiles como parente
-        go.transform.SetParent(transform);
+        if (inimigo_aleatorio == 1)
+        {
 
-        //Colocando o prefab no lugar certo
-        go.transform.position = gameObject.transform.position;
+            go = Instantiate(prefabs[inimigo_aleatorio]) as GameObject;
+            //go = Instantiate(prefabs[RandomPrefab()]) as GameObject;
+            // Setando o spawna_tiles como parente
+            go.transform.SetParent(transform);
 
+            //Colocando o prefab no lugar certo
+            go.transform.position = new Vector3(7.7f, 0.5f, 0);
+            
+
+        }
+        else
+        {
+            go = Instantiate(prefabs[inimigo_aleatorio]) as GameObject;
+            //go = Instantiate(prefabs[RandomPrefab()]) as GameObject;
+            // Setando o spawna_tiles como parente
+            go.transform.SetParent(transform);
+
+            //Colocando o prefab no lugar certo
+            go.transform.position = gameObject.transform.position;
+        }
     }
 
     IEnumerator Spawnar()
     {
         while(contador <= 1)
         {
-            int tempo_aleatorio = Random.Range(1, 3);
+            float tempo_aleatorio = Random.Range(1.5f, 3);
             yield return new WaitForSeconds(tempo_aleatorio);
             Spawna();
         }
@@ -58,7 +72,7 @@ public class Spawna_inimigos : MonoBehaviour {
     {
         int randomIndex;
 
-        randomIndex = Random.Range(0, 0);
+        randomIndex = Random.Range(0, 1);
         return randomIndex;
     }
 

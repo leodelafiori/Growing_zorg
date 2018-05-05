@@ -23,6 +23,7 @@ public class Prefabs_helicoptero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        StartCoroutine("deSpawn");
         float translation = Time.deltaTime * 10;
         transform.Translate(-velocidade * Time.deltaTime, 0, 0);
     }
@@ -59,5 +60,11 @@ public class Prefabs_helicoptero : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+    }
+
+    IEnumerator deSpawn()
+    {
+        yield return new WaitForSeconds(6);
+        Destroy(gameObject);
     }
 }

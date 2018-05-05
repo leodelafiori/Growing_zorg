@@ -1,25 +1,17 @@
 fileFormatVersion: 2
-guid: 2d297e6af9271cc40ad359ca54b2cad9
+guid: bf309350ba343854da923044268c54ea
 TextureImporter:
   fileIDToRecycleName:
-    21300000: azulao_0
-    21300002: azulao_1
-    21300004: azulao_2
-    21300006: azulao_3
-    21300008: azulao_4
-    21300010: azulao_5
-    21300012: azulao_6
-    21300014: azulao_7
-    21300016: azulao_8
-    21300018: azulao_9
-    21300020: azulao_10
-    21300022: azulao_11
-    21300024: azulao_12
-    21300026: azulao_13
-    21300028: azulao_14
-    21300030: azulao_15
-    21300032: azulao_16
-    21300034: azulao_17
+    21300000: voa_0
+    21300002: voa_1
+    21300004: voa_2
+    21300006: voa_3
+    21300008: voa_4
+    21300010: voa_5
+    21300012: voa_6
+    21300014: voa_7
+    21300016: voa_8
+    21300018: voa_9
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -133,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: azulao_0
+      name: voa_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 270
-        width: 36
-        height: 36
+        x: 1
+        y: 203
+        width: 59
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a443b5912bc924cad77d287991346b
+      spriteID: 11ee23cc470f6eb4093ace00de858bb8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_1
+      name: voa_1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 270
-        width: 36
-        height: 36
+        x: 65
+        y: 204
+        width: 59
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +159,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7389a8d96dc4d46ab9cae1eb1124bd
+      spriteID: d89495cb061e7814eba503c4c7d851ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_2
+      name: voa_2
       rect:
         serializedVersion: 2
-        x: 138
-        y: 270
-        width: 36
-        height: 36
+        x: 129
+        y: 205
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830357df1a7f94b43b62496a01cec143
+      spriteID: 4ffdb1fc024385144897442733897a01
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_3
+      name: voa_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 272
-        width: 36
-        height: 34
+        x: 1
+        y: 141
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c8798eb88830940a1dd75ca4191be9
+      spriteID: 94afa3dd073161548906d0ce6d0da8a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_4
+      name: voa_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 208
-        width: 36
-        height: 34
+        x: 65
+        y: 141
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +219,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c15ad6e1fedf4e4aae954d5d853d5a3
+      spriteID: 87c8ee0ad4b9af54caf3b79be73a87e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_5
+      name: voa_5
       rect:
         serializedVersion: 2
-        x: 74
-        y: 208
-        width: 36
-        height: 34
+        x: 128
+        y: 141
+        width: 60
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,139 +239,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 769595c08f5ea3f45955bc0ced74aa4f
+      spriteID: 760075969c11e6a4e967f8a0c15bc562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_6
+      name: voa_6
       rect:
         serializedVersion: 2
-        x: 138
-        y: 206
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f2ab0e0d3ea3954a82ec3c30b134bdf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_7
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 206
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 423881cb587783e4aa903d534205ceca
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_8
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 142
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cfb4db1eb1cb994998021fbc77a9d8e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_9
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 144
-        width: 36
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4e4fa233480f5f46919ce3c5ccd1333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_10
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 144
-        width: 36
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c58670c9428ceb4f943f233ed6c9b9d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_11
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 144
-        width: 36
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 916baa778eb54dd44b8eb0a4f62c0339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_12
-      rect:
-        serializedVersion: 2
-        x: 10
+        x: 1
         y: 78
-        width: 36
-        height: 36
+        width: 59
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,19 +259,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa643c403e21ea4b898a120899856b9
+      spriteID: 7ef53d65c5c5b164586798194467110e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_13
+      name: voa_7
       rect:
         serializedVersion: 2
-        x: 74
-        y: 78
-        width: 36
-        height: 36
+        x: 65
+        y: 77
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,19 +279,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c966a5387edaa784a98a5e3585287952
+      spriteID: c9ddc25b5faf8e14d81ae1b747780a80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_14
+      name: voa_8
       rect:
         serializedVersion: 2
-        x: 138
-        y: 80
-        width: 36
-        height: 34
+        x: 129
+        y: 76
+        width: 59
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,19 +299,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f771ef3c9917b834d89f6b208bfbd8d3
+      spriteID: 2cbe05fba5c0f594dac3e343100ef76b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: azulao_15
+      name: voa_9
       rect:
         serializedVersion: 2
-        x: 202
-        y: 80
-        width: 36
-        height: 34
+        x: 1
+        y: 11
+        width: 59
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,47 +319,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217afb34ceeb4fd408c339d1ce263a2d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_16
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 14
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02ef1e894f8a0524eac43b22b2c444d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: azulao_17
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 14
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79a29f49c5802c342a889bcac251b7eb
+      spriteID: 86e8c78876085034c9f8f31025443fd0
       vertices: []
       indices: 
       edges: []
@@ -495,7 +327,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 78fc6c63d80c08f44b96b3b9ed9d0aa9
+    spriteID: 2d18d58cc66949e4ea0e62612f9048cb
     vertices: []
     indices: 
     edges: []

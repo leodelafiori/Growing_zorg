@@ -60,6 +60,20 @@ public class Drag_drop_azul : MonoBehaviour
             drag = false;
             Tag.TagAzul();
         }
+
+        if (collision.gameObject.tag == "Player_azul")
+        {
+            transform.position = posicao_original;
+            drag = false;
+            Tag.TagAzul();
+        }
+
+        if (collision.gameObject.tag == "Player_roxo")
+        {
+            transform.position = posicao_original;
+            drag = false;
+            Tag.TagAzul();
+        }
     }
 
 

@@ -56,6 +56,19 @@ public class Drag_drop_vermelho : MonoBehaviour {
             drag = false;
             Tag.TagVermelho();
         }
+        if (collision.gameObject.tag == "Player_vermelho")
+        {
+            transform.position = posicao_original;
+            drag = false;
+            Tag.TagVermelho();
+        }
+
+        if (collision.gameObject.tag == "Player_roxo")
+        {
+            transform.position = posicao_original;
+            drag = false;
+            Tag.TagVermelho();
+        }
     }
 
    
