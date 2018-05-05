@@ -17,6 +17,7 @@ public class Prefabs_cientista : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = gameObject.transform.GetComponent<Animator>();
         Player = GameObject.Find("Player");
+        cientista = GameObject.Find("cientista");
     }
 
     // Update is called once per frame
@@ -42,7 +43,7 @@ public class Prefabs_cientista : MonoBehaviour
         }
         else if (collision.tag == "Player_vermelho")
         {
-            Destroy(cientista);
+            Destroy(gameObject);
         }
     }
 }
